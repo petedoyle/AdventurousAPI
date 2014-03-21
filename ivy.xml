@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+	<info organisation="io.adventurous.android" module="adventurous-android" />
+	<dependencies>
+		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.0">
+			<exclude org="org.apache.httpcomponents" name="httpclient" />
+			<exclude org="org.apache.httpcomponents" name="httpcore" />
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.7.1" />
+	</dependencies>
+</ivy-module>
